@@ -1,4 +1,24 @@
 {
+  "name": "mld/nft-port",
+  "type": "symfony-bundle",
+  "description": "Client pour l'API NFTPort",
+  "keywords": [
+    "nft",
+    "nftport",
+    "nft-port",
+    "nft-port-api",
+    "nft-port-sdk",
+    "nft-port-client"
+  ],
+  "homepage": "https://github.com/Geekureuil/mld-nftport",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Xavier Derrey",
+      "email": "derrey.xavier@gmail.com",
+      "homepage": "https://github.com/Geekureuil"
+    }
+  ],
   "require": {
     "php": ">=7.0",
     "symfony/config": "^6.1",

@@ -1,5 +1,7 @@
 <?php /** @noinspection PhpParamsInspection */
 
+namespace Mld\Bundle\NftPortBundle\DependencyInjection;
+
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 

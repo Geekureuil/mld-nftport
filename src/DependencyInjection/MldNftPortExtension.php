@@ -1,5 +1,7 @@
 <?php /** @noinspection PhpParamsInspection */
 
+namespace Mld\Bundle\NftPortBundle\DependencyInjection;
+
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 

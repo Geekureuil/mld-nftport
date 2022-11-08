@@ -1,5 +1,7 @@
 <?php
 
+namespace Mld\Bundle\NftPortBundle\Api;
+
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 
 class NftPortApi

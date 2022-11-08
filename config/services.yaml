@@ -1,5 +1,5 @@
 services:
-  mld_nft_port.api.nft_port_api:
+  Mld\NftPortBundle\Api\NftPortApi:
     class: Mld\NftPortBundle\Api\NftPortApi
     arguments:
       0:

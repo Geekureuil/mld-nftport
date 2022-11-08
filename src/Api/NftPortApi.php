@@ -5,10 +5,10 @@ namespace Mld\NftPortBundle\Api;
 class NftPortApi
 {
     /**
-     * @var string clef API
+     * @var ?string clef API
      * Trouvable là => https://dashboard.nftport.xyz/api-key
      */
-    private string $apiKey;
+    private ?string $apiKey;
     
     /**
      * @param string|null $apiKey

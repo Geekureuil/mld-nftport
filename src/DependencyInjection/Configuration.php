@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
          */
         $treeBuilder->getRootNode()
                     ->children()
-                        ->arrayNode('nft-port')
+                        ->arrayNode('nft_port')
                             ->children()
                                 ->scalarNode('api_key')
                                     ->isRequired()

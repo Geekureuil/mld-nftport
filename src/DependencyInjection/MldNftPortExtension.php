@@ -13,6 +13,6 @@ class MldNftPortExtension extends Extension
         $configuration = new Configuration();
         $config        = $this->processConfiguration($configuration, $configs);
         
-        $container->setParameter('mld_nft_port.nft_port.api_key', $config['nft-port']['api_key']);
+        $container->setParameter('mld_nft_port.nft_port.api_key', $config['nft_port']['api_key']);
     }
 }

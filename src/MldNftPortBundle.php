@@ -1,6 +1,6 @@
 <?php
 
-namespace Mld\Bundle\NftPortBundle;
+namespace Mld\NftPortBundle;
 
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 

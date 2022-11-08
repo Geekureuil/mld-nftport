@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Mld\\Bundle\\NftPortBundle\\": ""
+      "Mld\\NftPortBundle\\": "src/"
     },
     "exclude-from-classmap": [
       "/Tests/"

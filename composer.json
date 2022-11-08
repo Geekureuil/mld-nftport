@@ -1,0 +1,15 @@
+{
+  "require": {
+    "php": ">=7.0",
+    "symfony/config": "^6.1",
+    "symfony/framework-bundle": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mld\\Bundle\\NftPortBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}

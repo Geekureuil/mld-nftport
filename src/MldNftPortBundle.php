@@ -39,7 +39,7 @@ class MldNftPortBundle extends AbstractBundle
     {
         $container->import('../config/services.yaml');
         $container->services()
-                  ->get('mld_nft_port.api.nft_port_api')
+                  ->get('Mld\NftPortBundle\Api\NftPortApi')
                   ->arg(0, $config['nft_port']['api_key']);
     }
     

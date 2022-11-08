@@ -17,5 +17,4 @@ class NftPortApi
     {
         $this->apiKey = $apiKey;
     }
-    
 }

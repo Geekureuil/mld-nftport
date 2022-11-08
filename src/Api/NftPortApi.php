@@ -2,8 +2,6 @@
 
 namespace Mld\NftPortBundle\Api;
 
-use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
-
 class NftPortApi
 {
     /**
@@ -13,18 +11,11 @@ class NftPortApi
     private string $apiKey;
     
     /**
-     * @var ParameterBagInterface
+     * @param string|null $apiKey
      */
-    private ParameterBagInterface $parameterBag;
-    
-    /**
-     * @param string|null           $apiKey
-     * @param ParameterBagInterface $parameterBag
-     */
-    public function __construct(?string $apiKey, ParameterBagInterface $parameterBag)
+    public function __construct(?string $apiKey = null)
     {
-        $this->parameterBag = $parameterBag;
-        $this->apiKey       = ($apiKey === null) ? $this->parameterBag->get('mld_nft_port.nft_port.api_key') : $apiKey;
+        $this->apiKey = $apiKey;
     }
     
 }

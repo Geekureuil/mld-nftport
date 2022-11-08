@@ -1,0 +1,5 @@
+services:
+  mld_nft_port.api.nft_port_api:
+    class: Mld\NftPortBundle\Api\NftPortApi
+    arguments:
+      $apiKey: '%mld_nft_port.nft_port.api_key%'
